@@ -1,0 +1,28 @@
+# Arquivos e diretórios a serem ignorados no Git
+
+# Arquivos de byte compilados Python
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Arquivos de configuração locais
+.env
+
+# Arquivos gerados por IDEs e editores de texto
+.vscode/
+.idea/
+
+# Dependências geradas
+venv/
+env/
+env-bak/
+
+# Arquivo de log
+logs/
+*.log
+
+# Arquivos de build e distribuição
+dist/
+build/
+*.egg-info/
